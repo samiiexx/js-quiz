@@ -1,12 +1,11 @@
-# Website Title
-Include Description
+# Quiz
+This is a practice project from the course Novice to Ninja.
 
-![Website Title](screenshot.jpg)
+![Quiz](screenshot.jpg)
 
 ## Built With
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [SASS](https://sass-lang.com/)
-- [jQuery](https://jquery.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Requirements
  - NPM
@@ -14,7 +13,7 @@ Include Description
 
 ## Install
 ```
-    $ git clone git@github.com:repo/website-title.git main
+    $ git clone git@github.com:repo/sam-js-quiz.git main
     $ cd main
     $ npm install
     $ npm run build
@@ -53,9 +52,8 @@ gulp image
 
 ## Contributors
 - Favour Samuel (@samiiexx)
-- Osita Ugwueze (@OsitaNathan)
 
 ## License
-Copyright (c) 2021 StarBox Technologies Ltd.
+Copyright (c) 2021 Favour Samuel.
 
-For enquiries please contact us at [hello@starboxtech.com](mailto:hello@starboxtech.com).
+For enquiries please contact us at [sfchidimma@gmail.com](mailto:sfchidimma@gmail.com).

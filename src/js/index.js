@@ -16,17 +16,17 @@ const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const resultScore = document.querySelector(".result-score");
 
-let score = 0;
-let userAnswers = [
-    form.q1.value,
-    form.q2.value,
-    form.q3.value,
-    form.q4.value,
-    form.q5.value,
-];
-
 form.addEventListener("submit", (e) => {
     e.preventDefault();
+
+    let score = 0;
+    const userAnswers = [
+        form.q1.value,
+        form.q2.value,
+        form.q3.value,
+        form.q4.value,
+        form.q5.value,
+    ];
 
     // Check Answers
     userAnswers.forEach((answer, i) => {
@@ -41,7 +41,7 @@ form.addEventListener("submit", (e) => {
 
     // Animate Result
     let output = 0;
-    let timer = setInterval(() => {
+    const timer = setInterval(() => {
         resultScore.textContent = `${output}%`;
         if (output === score) {
             clearInterval(timer);

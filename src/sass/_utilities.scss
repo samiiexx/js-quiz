@@ -120,7 +120,7 @@ $spacers: (
 }
 
 .btn-primary-outline {
-    @include btn-outline($primary, $white);
+    @include btn-outline($white, $primary);
 }
 
 .btn-secondary {
